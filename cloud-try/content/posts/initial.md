@@ -2,7 +2,6 @@
 categories = ["conversations"]
 date = "2019-05-28T00:01:58.000-04:00"
 description = "A first episode of sorts."
-draft = true
 externalLink = ""
 series = []
 slug = "initial"
