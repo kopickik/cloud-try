@@ -8,7 +8,7 @@ sections:
   path: cloud-try/content
   label: Posts
   create: all
-  match: Posts/**/*
+  match: posts/**/*
 - type: directory
   path: cloud-try/content
   label: Pages
