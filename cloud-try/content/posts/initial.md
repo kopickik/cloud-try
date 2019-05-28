@@ -13,3 +13,5 @@ title = "The blog kicks off"
 # The initial post
 
 Everyone's favorite post, is the first one.
+
+It might actually be simpler to edit this on forestry.
