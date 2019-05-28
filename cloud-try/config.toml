@@ -1,3 +1,118 @@
-baseURL = "http://example.org/"
+baseURL = "https://spoonfedweb.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "spoonfedweb::a blog about the web"
+theme = "hugo-coder"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Kyle Kopicki"
+    description = "spoonfedweb is a site dedicated to lowering the barrier-to-entry of web application programming. Based out of Detroit MI."
+    keywords = "blog,developer,web development"
+    info = "Web application programmer and reliability engineer -- all around technologist and musician."
+    avatarurl = "images/avatar.jpg"
+    footercontent = ""
+
+    dateformat = "02 Jan, 2006"
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    commit = "https://github.com/kopickik/cloud-try/tree/"
+
+    rtl = false
+
+    # Use inverted colors
+    inverted = false
+
+    # Series see also post count
+    maxSeeAlsoItems = 4
+
+    # Custom CSS
+    custom_css = []
+
+    # Custom JS
+    custom_js = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/kopickik"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fab fa-gitlab"
+    weight = 2
+    url = "https://gitlab.com/spoonfedweb/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/spoonfedweb/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/johndoe/"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "/about/"
+
+        [[languages.en.menu.main]]
+        name = "Blog"
+        weight = 2
+        url = "/posts/"
+
+        [[languages.en.menu.main]]
+        name = "Contact me"
+        weight = 5
+        url = "/contact/"
+
+
+    # [languages.pt-br]
+    #     languagename = "Português"
+    #     title = "João Ninguém"
+
+    #     [languages.pt-br.params]
+    #         author = "João Ninguém"
+    #         info = "Full Stack DevOps e Mágico"
+    #         description = "Sítio pessoal de João Ninguém"
+    #         keywords = "blog,desenvolvedor,pessoal"
+    #         footercontent = "Coloque algum texto aqui."
+
+    #     [languages.pt-br.menu]
+
+    #         [[languages.pt-br.menu.main]]
+    #         name = "Sobre"
+    #         weight = 1
+    #         url = "/pt-br/about/"
+
+    #         [[languages.pt-br.menu.main]]
+    #         name = "Blog"
+    #         weight = 2
+    #         url = "/pt-br/posts/"
+
+    #         [[languages.pt-br.menu.main]]
+    #         name = "Contato"
+    #         weight = 5
+    #         url = "/pt-br/contact/"
+
