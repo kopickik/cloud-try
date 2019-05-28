@@ -6,6 +6,11 @@ webhook_url:
 sections:
 - type: directory
   path: cloud-try/content
+  label: Posts
+  create: all
+  match: Posts/**/*
+- type: directory
+  path: cloud-try/content
   label: Pages
   create: all
   match: "*"
